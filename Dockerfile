@@ -17,4 +17,6 @@ RUN npm install
 CMD [ "node", "index.js" ]
 
 # Exposing server port
-EXPOSE 3000
+EXPOSE 8080
+
+ENV PORT=8080
